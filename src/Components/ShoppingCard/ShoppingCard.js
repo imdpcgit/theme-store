@@ -3,6 +3,7 @@ import "./ShoppingCard.css";
 import themeimg1 from "../../Assets/Img/cards for shopping";
 
 const ShoppingCard = (props) => {
+
   return (
     <>
       {/* creating shopping card component for all the shopping options */}
@@ -18,7 +19,7 @@ const ShoppingCard = (props) => {
             <img
               //   src={themeimg1}
               className="img-for-shopping-card-image"
-              src={props.themeDetails.url}
+              src={themeimg1}
               alt=""
               srcset=""
               style={{ height: "24em", width: "100%" }}
@@ -32,15 +33,21 @@ const ShoppingCard = (props) => {
             {/* title for theme */}
             <div className="title-for-theme">
               {/* <p>Craft</p> */}
-              <p>{props.themeDetails.title}</p>
+              <p>title</p>
             </div>
             {/* pricing for theme */}
 
             <div className="price-for-the-themes">
               {/* <p>Free</p> */}
 
-              <p>{props.themeDetails.price}</p>
+              <p>price</p>
             </div>
+
+          </div>
+          <div className="btn-group-in-shoping-card">
+            <button className="btn-for-card">Quick View</button>
+            <button className="btn-for-card">Mega Menu</button>
+            <button className="btn-for-card">Stickey Header</button>
           </div>
         </div>
       </div>

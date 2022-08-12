@@ -6,6 +6,7 @@ import img2 from '../../Assets/Img/img2.jpg'
 
 import lessthan from '../../Assets/Img/less-than.png'
 import greaterthan from '../../Assets/Img/greater-than.png'
+import ProductPage from './../../Containers/ProductPage/ProductPage'
 const BrowseTheme = () => {
   const [Data, setData] = useState(0)
   const themes = [
@@ -63,6 +64,10 @@ const BrowseTheme = () => {
                 <div></div>
               </div>
             </div>
+          </div>
+
+          <div>
+            <ProductPage />
           </div>
         </Width75em>
       </div>

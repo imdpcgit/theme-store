@@ -11,6 +11,17 @@
 .contains-cards-container-and-info {
   border-radius: 10px;
   box-shadow: 0px 0px 4px 0px;
+  height: 520px;
+  margin: 10px 0 0 0;
+  /* height: auto; */
+}
+.btn-group-in-shoping-card {
+  padding: 0 13px;
+  gap: 5px;
+}
+.btn-for-card {
+  cursor: pointer;
+  margin-right: 5px;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {

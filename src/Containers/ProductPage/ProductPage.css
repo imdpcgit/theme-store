@@ -1,0 +1,129 @@
+.flex-div-for-products {
+  display: flex;
+}
+.sidenav-for-product {
+  width: 400px;
+  height: 115vw;
+  line-height: 3rem;
+  padding: 22px 0 0 10px;
+}
+.all-product-for-sell {
+  display: flex;
+  gap: 2em;
+  /* overflow: hidden; */
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: left;
+  background-color: #62606024;
+  padding-left: 6em;
+}
+.bg-and-heading {
+  /* background-image: url("../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: #fff;
+  width: 100%;
+}
+.bgcolor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  background-color: rgba(0, 0, 0, 0.537);
+  width: 100%;
+
+  height: 350px;
+}
+.bgcolor:hover {
+  background-color: rgba(42, 41, 41, 0.59);
+
+  height: 350px;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+}
+.icon-style-uparrow {
+  height: 1em;
+  width: 1em;
+}
+.div-for-filter-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.sidenav-position {
+  position: sticky;
+  top: 0;
+}
+.side-nav-content {
+  line-height: 1em;
+}
+.side-nav-content li {
+  cursor: pointer;
+}
+.side-nav-content li:hover {
+  text-decoration: underline;
+  color: #5265c4;
+}
+.for-search-in-navbar-of-products input {
+  height: 37px;
+  border-radius: 5px;
+  width: 243px;
+  padding-left: 1em;
+  border: 1px solid #ff00004f;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-div-for-products {
+    display: block;
+    margin: 0;
+  }
+  .sidenav-position {
+    width: 100%;
+    text-align: center;
+    /* position: inherit; */
+    position: sticky;
+    top: 0;
+  }
+
+  .sidenav-for-product {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+  }
+  .bgcolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+  }
+  .bg-and-heading {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .side-nav-content {
+    display: flex;
+    font-size: 14px;
+    gap: 14px;
+    text-align: center;
+    align-items: center;
+    justify-content: stretch;
+  }
+  .side-nav-content h2 {
+    display: none;
+  }
+}
