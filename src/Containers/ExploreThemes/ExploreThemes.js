@@ -8,8 +8,14 @@ const ExploreThemes = () => {
     {
       _id: "1",
       url: themeimg1,
-      title: "Sonoma Style BBQ",
-      price: 60.0,
+      title: "Craft",
+      price: "Free",
+    },
+    {
+      _id: "2",
+      url: themeimg1,
+      title: "Ride",
+      price: "Free",
     },
   ];
   return (
@@ -36,7 +42,7 @@ const ExploreThemes = () => {
           {/* contains cards for shopping */}
           <div className="contains-two-shopping-cards-with-info">
             {theme.map((val, index) => (
-              <ShoppingCard themeDetail={val} />
+              <ShoppingCard themeDetails={val} />
             ))}
           </div>
         </div>

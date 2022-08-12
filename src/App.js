@@ -6,8 +6,8 @@ import ExploreThemes from "./Containers/ExploreThemes/ExploreThemes";
 function App() {
   return (
     <>
-      <ShoppingCard />
-      {/* <ExploreThemes /> */}
+      {/* <ShoppingCard /> */}
+      <ExploreThemes />
     </>
   );
 }

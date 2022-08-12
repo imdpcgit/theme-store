@@ -1,0 +1,28 @@
+.title-and-price-for-the-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 13px;
+}
+.img-for-shopping-card img {
+  height: 24em;
+  width: 21em;
+  border-radius: 9px;
+}
+.contains-cards-container-and-info {
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .img-for-shopping-card {
+    width: 100%;
+  }
+  /* .img-for-shopping-card-image {
+    height: 24em;
+    width: 100%;
+  } */
+  .contains-cards-container-and-info {
+    display: flex;
+    justify-content: center;
+  }
+}

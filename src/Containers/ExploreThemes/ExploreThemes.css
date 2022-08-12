@@ -1,0 +1,60 @@
+.container-for-explore-free-themes {
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  align-items: center;
+  gap: 1em;
+}
+
+.contains-two-shopping-cards-with-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+.btn-for-explore-theme button {
+  width: 15em;
+  height: 4em;
+  border: none;
+  background-color: #008060dc;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-for-explore-theme :hover {
+  background-color: #008060;
+}
+.heading-explore-themes p {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+/* media query for responsive */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .button-for-explore-theme-and-para {
+    text-align: center;
+    width: 100%;
+  }
+  .contains-two-shopping-cards-with-info {
+    display: grid;
+    row-gap: 1em;
+    justify-content: center;
+  }
+  .container-for-explore-free-themes {
+    display: grid;
+    margin: 1em;
+  }
+  .btn-for-explore-theme button {
+    width: 12em;
+    height: 3em;
+    border: none;
+    background-color: #008060dc;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
