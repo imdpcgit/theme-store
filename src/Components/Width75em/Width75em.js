@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Width75em.css";
 const Width75em = (props) => {
   return (
     <>
@@ -8,7 +8,7 @@ const Width75em = (props) => {
       <div className="flex-container-for-width-set-all-page">
         {" "}
         {/* div for width set 75em */}
-        <div className="width-cset-for-theme-store-all-screen">
+        <div className="width-set-for-theme-store-all-screen">
           {props.children}
         </div>
       </div>

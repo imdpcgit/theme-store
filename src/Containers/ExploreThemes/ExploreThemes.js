@@ -1,8 +1,17 @@
 import React from "react";
 import "./ExploreThemes.css";
 import Width75em from "./../../Components/Width75em/Width75em";
-
+import ShoppingCard from "../../Components/ShoppingCard/ShoppingCard";
+import themeimg1 from "../../Assets/Img/cards for shopping";
 const ExploreThemes = () => {
+  const theme = [
+    {
+      _id: "1",
+      url: themeimg1,
+      title: "Sonoma Style BBQ",
+      price: 60.0,
+    },
+  ];
   return (
     <>
       {/* created explore theme container for the shopping cards that we have in our Theme Store */}
@@ -25,7 +34,11 @@ const ExploreThemes = () => {
             </div>
           </div>
           {/* contains cards for shopping */}
-          <div className="contains-two-shopping-cards-with-info"></div>
+          <div className="contains-two-shopping-cards-with-info">
+            {theme.map((val, index) => (
+              <ShoppingCard themeDetail={val} />
+            ))}
+          </div>
         </div>
       </Width75em>
     </>
