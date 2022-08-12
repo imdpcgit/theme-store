@@ -8,6 +8,7 @@ import lessthan from '../../Assets/Img/less-than.png'
 import greaterthan from '../../Assets/Img/greater-than.png'
 import ProductPage from './../../Containers/ProductPage/ProductPage'
 const BrowseTheme = () => {
+  const [isOpen, setIsOpen] = useState(false)
   const [Data, setData] = useState(0)
   const themes = [
     {
@@ -35,11 +36,13 @@ const BrowseTheme = () => {
                 A clean style ideal for regular promotions and featured products
               </p>
               {/* button to browse theme  */}
+
               <div>
                 <button className="btn-for-the-browse-theme">
                   Browse Theme
                 </button>
               </div>
+
               {/* functionaliity for changeing the theme */}
               <div className="div-for-theme-change-onclick">
                 <div>
@@ -61,7 +64,6 @@ const BrowseTheme = () => {
                     setData(Data === themes.length - 1 ? 0 : Data + 1)
                   }
                 />
-                <div></div>
               </div>
             </div>
           </div>

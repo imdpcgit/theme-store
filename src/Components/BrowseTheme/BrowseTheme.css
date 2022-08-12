@@ -58,6 +58,11 @@ h2 {
   width: 1.5em;
   cursor: pointer;
 }
+
+.btn-group-browse {
+  display: flex;
+  gap: 20px;
+}
 @media (min-width: 320px) and (max-width: 425px) {
   .flex-div-for-browse-theme {
     display: block;
