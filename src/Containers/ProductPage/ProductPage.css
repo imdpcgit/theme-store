@@ -107,6 +107,7 @@
     justify-content: center;
     display: flex;
     height: auto;
+    padding: 0;
   }
   .bgcolor {
     display: flex;
@@ -134,7 +135,10 @@
     display: none;
   }
   .all-product-for-sell {
-    padding: 2em;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .filter-btn {
     width: 130px;
@@ -154,8 +158,8 @@
   }
   .div-for-popup-in-responsive {
     display: block;
-
     width: 80%;
+    padding: 1em;
   }
   .div-for-filter-heading {
     padding: 0;

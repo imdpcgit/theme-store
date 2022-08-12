@@ -109,8 +109,8 @@ const ProductPage = () => {
         <div className="all-product-for-sell">
           <ShoppingCard />
           <ShoppingCard />
-          {/* <ShoppingCard />
-          <ShoppingCard /> */}
+          <ShoppingCard />
+          <ShoppingCard />
         </div>
       </div>
       <div></div>
