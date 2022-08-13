@@ -88,12 +88,12 @@ const ProductPage = () => {
                 <div className='div-for-popup-in-responsive'>
                   <div className='filter-done-btn-after-click'>
                     <div>
-                      <button >
+                      <button className="filter-btn-after-click" >
                         Filter
                       </button>
                     </div>
                     <div onClick={() => { setShowFilter(false) }}>
-                      <button>
+                      <button className='done-btn-after-click'>
                         Done
                       </button>
                     </div>

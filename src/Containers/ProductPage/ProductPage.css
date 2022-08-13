@@ -155,10 +155,11 @@
   .filter-btn-position {
     display: flex;
     justify-content: center;
+    margin: 10px 0 10px 0;
   }
   .div-for-popup-in-responsive {
     display: block;
-    width: 80%;
+    width: 90%;
     padding: 1em;
   }
   .div-for-filter-heading {
@@ -166,7 +167,32 @@
   }
   .filter-done-btn-after-click {
     display: flex;
-    justify-content: left;
-    gap: 250px;
+    justify-content: space-between;
+    /* gap: 250px; */
+  }
+  .filter-btn-after-click {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #004c3f;
+    cursor: pointer;
+    color: #004c3f;
+    background-color: white;
+    font-weight: 600;
+  }
+  .done-btn-after-click {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #004c3f;
+    cursor: pointer;
+    color: #004c3f;
+    background-color: white;
+    font-weight: 600;
+  }
+  .side-nav-content {
+    padding: 0;
   }
 }
