@@ -91,6 +91,7 @@ const ProductPage = () => {
             {
               showFilter ?
                 <div className='div-for-popup-in-responsive'>
+                  {/* button group in responsive to select filter and apply */}
                   <div className='filter-done-btn-after-click'>
                     <div>
                       <button className="filter-btn-after-click" >
