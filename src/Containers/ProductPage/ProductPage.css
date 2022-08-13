@@ -6,6 +6,7 @@
   height: 115vw;
   line-height: 3rem;
   padding: 22px 0 0 10px;
+  background-color: #6260600a;
 }
 .all-product-for-sell {
   display: flex;
@@ -14,7 +15,7 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: left;
-  background-color: #62606024;
+  /* background-color: #62606024; */
   padding-left: 6em;
 }
 .bg-and-heading {

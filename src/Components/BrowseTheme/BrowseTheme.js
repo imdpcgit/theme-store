@@ -54,7 +54,7 @@ const BrowseTheme = () => {
                   />
                 </div>
                 <div>
-                  <p style={{ fontSize: '35px', fontWeight: '200' }}>1/6</p>
+                  <p style={{ fontSize: '35px', fontWeight: '200' }}>{Data + 1}/2</p>
                 </div>
                 <img
                   src={greaterthan}
@@ -68,9 +68,7 @@ const BrowseTheme = () => {
             </div>
           </div>
 
-          <div>
-            <ProductPage />
-          </div>
+
         </Width75em>
       </div>
     </>
