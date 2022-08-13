@@ -155,9 +155,17 @@
   .filter-btn-position {
     display: flex;
     justify-content: center;
-    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
   }
+
   .div-for-popup-in-responsive {
+    background: #fff;
+    top: 0;
+    position: fixed;
     display: block;
     width: 90%;
     padding: 1em;

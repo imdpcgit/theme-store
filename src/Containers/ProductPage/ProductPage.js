@@ -16,6 +16,7 @@ const ProductPage = () => {
   const conent = () => {
     return (
       <>
+        {/* all filter data  */}
         <ul className="side-nav-content">
           <div>
             <div className="div-for-filter-heading">
@@ -25,10 +26,12 @@ const ProductPage = () => {
               </p>
             </div>
 
-            <p style={{ display: "flex" }}>
+            <p style={{ display: "flex" }} >
               <input type="checkbox" />
               Free
+              <span ></span>
             </p>
+
             <p style={{ display: "flex" }}>
               <input type="checkbox" />
               Paid
@@ -77,7 +80,9 @@ const ProductPage = () => {
         <div className="sidenav-for-product">
           <div className="sidenav-position">
             <div className='filter-btn-position'>
-              {!showFilter ? <button className="filter-btn" onClick={() => { setShowFilter(true) }}>Filter</button> : null}
+              <div className='a'>
+                {!showFilter ? <button className="filter-btn" onClick={() => { setShowFilter(true) }}>Filter</button> : null}
+              </div>
             </div>
 
             <div className='side-filter-content'>
@@ -107,6 +112,9 @@ const ProductPage = () => {
         </div>
         {/* all products call by component  */}
         <div className="all-product-for-sell">
+          <ShoppingCard />
+          <ShoppingCard />
+          <ShoppingCard />
           <ShoppingCard />
           <ShoppingCard />
           <ShoppingCard />
